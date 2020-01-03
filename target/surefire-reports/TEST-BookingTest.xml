@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BookingTest" time="3.594" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/test-classes:/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/classes:/home/thiagogc/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/thiagogc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/thiagogc/.m2/repository/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/thiagogc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/thiagogc/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/thiagogc/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/thiagogc/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/thiagogc/.m2/repository/io/rest-assured/json-path/4.1.2/json-path-4.1.2.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/home/thiagogc/.m2/repository/io/rest-assured/rest-assured-common/4.1.2/rest-assured-common-4.1.2.jar:/home/thiagogc/.m2/repository/io/rest-assured/xml-path/4.1.2/xml-path-4.1.2.jar:/home/thiagogc/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/thiagogc/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/thiagogc/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/home/thiagogc/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/home/thiagogc/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/thiagogc/.m2/repository/com/github/javafaker/javafaker/1.0.1/javafaker-1.0.1.jar:/home/thiagogc/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/thiagogc/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/thiagogc/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/thiagogc/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/surefire/surefirebooter16617578351600176245.jar /home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/surefire 2020-01-03T14-20-08_418-jvmRun1 surefire7734267520757084705tmp surefire_018071159110606286265tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/test-classes:/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/classes:/home/thiagogc/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/thiagogc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/thiagogc/.m2/repository/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/thiagogc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/thiagogc/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/thiagogc/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/thiagogc/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/thiagogc/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/thiagogc/.m2/repository/io/rest-assured/json-path/4.1.2/json-path-4.1.2.jar:/home/thiagogc/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/home/thiagogc/.m2/repository/io/rest-assured/rest-assured-common/4.1.2/rest-assured-common-4.1.2.jar:/home/thiagogc/.m2/repository/io/rest-assured/xml-path/4.1.2/xml-path-4.1.2.jar:/home/thiagogc/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/thiagogc/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/thiagogc/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/home/thiagogc/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/home/thiagogc/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/thiagogc/.m2/repository/com/github/javafaker/javafaker/1.0.1/javafaker-1.0.1.jar:/home/thiagogc/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/thiagogc/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/thiagogc/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/thiagogc/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/thiagogc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test/target/surefire/surefirebooter16617578351600176245.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-post-Ubuntu-0ubuntu1.118.04"/>
+    <property name="user.name" value="thiagogc"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-72-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/thiagogc/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="/home/thiagogc/Documents/Personal/challenge/new/booking-api-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-post-Ubuntu-0ubuntu1.118.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getIndividualBooking" classname="BookingTest" time="3.478"/>
+  <testcase name="createBookingWithCheckInDateLaterThanCheckOutDate" classname="BookingTest" time="3.079"/>
+  <testcase name="createBookingForSameRoomInDifferentDate" classname="BookingTest" time="3.079"/>
+  <testcase name="getBookings" classname="BookingTest" time="3.594"/>
+  <testcase name="createBookingForSameRoomInSameDate" classname="BookingTest" time="3.079"/>
+  <testcase name="createBookingWithDifferentTimeInformation" classname="BookingTest" time="3.079"/>
+</testsuite>
