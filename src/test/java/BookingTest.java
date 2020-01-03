@@ -31,7 +31,6 @@ public class BookingTest {
         checkInFinal = formatter.parse("2018-01-01");
     }
 
-    //Test if the
     @Test
     public void getBookings () {
         given()
